@@ -2,7 +2,7 @@
 
 The Mafia Dataset was created to model the behavior of deceptive actors in the context of the Mafia game, as described in the paper “Putting the Con in Context: Identifying Deceptive Actors in the Game of Mafia”. We hope that this dataset will be of use to others studying the effects of deception on language use.
 
-## About the Dataset Collection Methodology
+# About the Dataset Collection Methodology
 
 A total of 460 participants were recruited from Amazon Mechanical Turk using the experiment platform Dallinger (http://github.com/dallinger/Dallinger). Between 4 and 10 participants were recruited for each Mafia game: 1 to 2 participants were designated mafia, and the rest were bystanders. Forty-four of these Mafia games are included in this dataset. Participants were paid $2.50 for completing the task, plus bonuses for time spent waiting for other participants to arrive in a chatroom to begin the experiment (waiting was paid at $5.00/hour).
 
@@ -12,7 +12,7 @@ The game dynamics were as follows. Each mafia member was aware of the identities
 
 From these experiments, we collected a dataset consisting of both mafia and bystander utterances over the course of each game, as well as the participants' voting behavior.
 
-### Dataset Description
+# Dataset Description
 
 The data is organized as follows:
 
@@ -55,5 +55,3 @@ Every network.csv file contains the following relevant information for the Mafia
 2.	property2: the winner of the Mafia game, which may be either “mafia” or “bystanders”
 3.	property3: the fake name that corresponds to the most recently eliminated node
 4.	max_size: the maximum number of nodes in the network (note that this is one more than the number of players, as the source node must also be accounted for)
-
-![image](https://user-images.githubusercontent.com/7306969/179087917-de307fd3-9de3-4f59-a86e-11d45c180a17.png)
